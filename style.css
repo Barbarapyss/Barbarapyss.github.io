@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap');
+
 body {
     height: 100%;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     background: radial-gradient(ellipse at 40% 50%, #ff6bd6, #833ab4); /* Pink and purple gradient */
 }
 
@@ -47,7 +48,7 @@ body {
     border-radius: 10px;
     margin: 10px;
     padding: 20px;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
@@ -62,7 +63,7 @@ body {
 .total-xps,
 .audit-ratio {
     font-weight: bold;
-    color: #ff6bd6; /* Pink text */
+    color: #000000; /* Pink text */
     text-shadow: 0 0 7px #ff6bd6, 0 0 10px #ff6bd6, 0 0 21px #ff6bd6;
 }
 
