@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    background: radial-gradient(ellipse at 40% 50%, #ff6bd6, #833ab4); /* Pink and purple gradient */
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 100vh;
+    padding-right: 2rem;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    background: radial-gradient(ellipse at 40% 50%, #ff6bd6, #833ab4); /* Use the same background as body */
+}
+
+/* Update font styles and colors */
+.login-container {
+    border: 1px solid #ff6bd6; /* Pink border */
+    padding: 20px;
+    margin-top: 2rem;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+#login-form input[type="submit"] {
+    padding: 10px;
+    background-color: #ff6bd6; /* Pink button */
+    color: white;
+    cursor: pointer;
+}
+
+#login-form input[type="submit"]:hover {
+    background-color: #ff4fba; /* Lighter pink on hover */
+}
+
+/* Add decorative elements */
+.user-info-container {
+    border: 1px solid #ff6bd6; /* Pink border */
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Orbitron', sans-serif;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Update colors */
+.info {
+    margin-bottom: 10px;
+    color: #ff6bd6; /* Pink text */
+}
+
+.name,
+.total-xps,
+.audit-ratio {
+    font-weight: bold;
+    color: #ff6bd6; /* Pink text */
+    text-shadow: 0 0 7px #ff6bd6, 0 0 10px #ff6bd6, 0 0 21px #ff6bd6;
+}
+
+/* Update button styles */
+.logout {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: #ff6bd6; /* Pink button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.logout:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logout:hover {
+    background-color: #ff4fba; /* Lighter pink on hover */
+}
