@@ -4,7 +4,7 @@
 
 Hosted on GitHub pages, this project offers users an in-depth visualization of their school data using graphs and charts. Insights are derived from individual user achievements, all directly fetched from the GraphQL endpoint.
 
-🔗 **Live Demo**: Explore it here on GitHub: https://github.com/Barbarapyss/Barbarapyss.github.io.git
+🔗 **Live Demo**: Explore it here on GitHub: https://barbarapyss.github.io/
 
 ## Features
 
